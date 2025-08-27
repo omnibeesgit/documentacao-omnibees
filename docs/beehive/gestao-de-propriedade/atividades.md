@@ -7,7 +7,7 @@ slug: /atividades
 
 # Atividades
 
-As Atividades são criadas no menu Gestão da Propriedade e escolhidas no Motor de Reservas durante a reserva, onde o hóspede pode selecionar as suas atividades preferidas. A lista de Atividades escolhidas pelo hóspede está ligada ao seu perfil para que possa ser alvo de campanhas de marketing direcionadas às suas preferências (por exemplo: se gostar de esquiar, pode receber uma *newsletter* a promover um pacote para um fim de semana de *ski* no hotel).
+As Atividades são criadas no menu Gestão da Propriedade e escolhidas no Motor de Reservas durante a reserva, onde o hóspede pode selecionar as suas atividades preferidas. A lista de Atividades escolhidas pelo hóspede está ligada ao seu perfil para que possa ser alvo de campanhas de *marketing* direcionadas às suas preferências (por exemplo: se gostar de esquiar, pode receber uma *newsletter* a promover um pacote para um fim de semana de *ski* no hotel).
 
 ## Lista de Atividades
 
@@ -67,7 +67,7 @@ O ecrã deve validar as permissões do utilizador e mostrar as informações de 
 
 O utilizador clica em "Atualizar" para recarregar o ecrã com as informações atualizadas.
 :::warning
-Antes de atualizar, o utilizador é avisado que todas as possíveis alterações efetuadas serão perdidas.
+Antes de atualizar, o utilizador é avisado de que todas as possíveis alterações efetuadas serão perdidas.
 :::
 
 ## Eliminar Atividades
