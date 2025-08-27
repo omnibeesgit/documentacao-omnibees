@@ -13,7 +13,7 @@ As Atividades são criadas no menu Gestão da Propriedade e escolhidas no Motor 
 
 Neste ecrã são listadas todas as Atividades da propriedade.
 
-![Lista Atividades.JPG](/docs/beehive/gestao-de-propriedade/atividades/Lista Atividades.JPG)
+![Lista Atividades.JPG](/assets/beehive/gestao-de-propriedade/atividades/Lista Atividades.JPG)
 
 A lista deve conter as seguintes informações:
 
@@ -44,7 +44,7 @@ Neste ecrã é possível criar e editar Atividades.
 
 O utilizador deve preencher todos os campos obrigatórios e guardá-los. Quando a operação é concluída, a Atividade estará pronta para ser utilizada.
 
-![Criação_Edição Atividade.JPG](/docs/beehive/gestao-de-propriedade/atividades/Criação_Edição Atividade.JPG)
+![Criação_Edição Atividade.JPG](/assets/beehive/gestao-de-propriedade/atividades/Criação_Edição Atividade.JPG)
 
 | **Campo**     | **Obrigatório?** |
 | :------------ | :--------------- |
@@ -79,15 +79,10 @@ Antes de atualizar, o utilizador é avisado que todas as possíveis alterações
 Se o utilizador tentar eliminar várias atividades e, por qualquer razão, alguma das eliminações falhar, a ação deve ser revertida. Se a eliminação de um registo falhar, nenhuma outra atividade deve ser eliminada.
 O ecrã deve validar as permissões do utilizador e mostrar as informações de acordo.
 
-### UI / UX
-| Data da última alteração | URL Design | Referência de alteração |
-| :----------------------- | :--------- | :---------------------- |
-| ND                       | [https://tfs.omnibees.com/tfs/IDTProjects/Omnibees/_versionControl?path=$/Omnibees/OB/UI%20Design/Protur/Main/OMNIBEES_v02/Release/Proative-Actions](https://tfs.omnibees.com/tfs/IDTProjects/Omnibees/_versionControl?path=%24%2FOmnibees%2FOB%2FUI%20Design%2FProtur%2FMain%2FOMNIBEES_v02%2FRelease%2FProative-Actions) | ND |
-
 <h2>Histórico</h2>
 
 ### Histórico de alterações e referências
-| Data da alteração | Owner | Referência de alteração | Observações |
-| :---------------- | :---- | :---------------------- | :---------- |
-| 27-08-2025        | N8N   | -                       | Conversão da documentação para docusaurus |
-| 27-08-2025        | N8N   | -                       | Conversão da documentação para docusaurus |
+| Data da alteração | Owner            | Referência de alteração | Observações                       |
+| :---------------- | :--------------- | :---------------------- | :-------------------------------- |
+| 27-08-2025        | N8N              | -                       | Conversão da documentação para docusaurus |
+| 16-03-2023        | Flávia Guerreiro | -                       | Migração da documentação          |
