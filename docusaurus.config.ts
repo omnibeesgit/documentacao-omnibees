@@ -60,7 +60,6 @@ const config: Config = {
       },
       items: [
         { to: "/docs", label: "Documentação", position: "left" },
-        { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/facebook/docusaurus",
           label: "GitHub",
@@ -84,26 +83,14 @@ const config: Config = {
           title: "Community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "X",
-              href: "https://x.com/docusaurus",
-            },
+              label: "Omnibees",
+              href: "https://omnibees.com",
+            },           
           ],
         },
         {
           title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
+          items: [           
             {
               label: "GitHub",
               href: "https://github.com/facebook/docusaurus",
