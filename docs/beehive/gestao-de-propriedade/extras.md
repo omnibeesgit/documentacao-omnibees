@@ -62,7 +62,7 @@ Nesta tela é possível criar ou editar um extra. Todos os campos obrigatórios 
 
 ![Extras2.png](./Documentação Produto - Extras_files/09.png)
 
-| **Campo**                      | **Obrigatório?**                                                      | **OBS**                                                                                                          |
+| **Campo**                      | **Obrigatório?**                                                      | **Observações**                                                                                                  |
 | :----------------------------- | :-------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------- |
 | **Configurações**              | N/A                                                                   |                                                                                                                  |
 | **Detalhes**                   | N/A                                                                   |                                                                                                                  |
