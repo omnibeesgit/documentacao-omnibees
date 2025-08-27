@@ -13,14 +13,7 @@ As Atividades são criadas no menu Gestão da Propriedade e escolhidas no Motor 
 
 Neste ecrã são listadas todas as Atividades da propriedade.
 
-Versão 1:
 ![Lista Atividades.JPG](/assets/beehive/gestao-de-propriedade/atividades/Lista Atividades.JPG)
-
-Versão 2:
-![Lista Atividades](</assets/beehive/gestao-de-propriedade/atividades/Lista Atividades.JPG>)
-
-Versão 3:
-![Lista Atividades](/assets/beehive/gestao-de-propriedade/atividades/Lista%20Atividades.JPG)
 
 A lista deve conter as seguintes informações:
 
