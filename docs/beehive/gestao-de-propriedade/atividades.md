@@ -46,10 +46,10 @@ O utilizador deve preencher todos os campos obrigatórios e guardá-los. Quando 
 
 ![Criação_Edição Atividade.JPG](/assets/beehive/gestao-de-propriedade/atividades/Criação_Edição Atividade.JPG)
 
-| **Campo**     | **Obrigatório?** |
-| :------------ | :--------------- |
-| **Nome**      | Sim              |
-| **Categoria** | Sim              |
+| **Campo**     | **Obrigatório?**      |
+| :------------ | :-------------------- |
+| **Nome**      | Sim                   |
+| **Categoria** | Sim                   |
 
 O Nome da Atividade e da Categoria pode ser definido em vários idiomas. O idioma padrão deve ser o idioma base da propriedade.
 
