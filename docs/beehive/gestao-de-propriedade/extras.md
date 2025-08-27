@@ -180,7 +180,7 @@ A tela deve validar as permissões do usuário e exibir as informações de acor
 | 26-03-2024        | Flávia Guerreiro | [O-359](https://omnibees.aha.io/features/O-359)                                           | Aba Tarifas e Pacotes                                                       |
 | 15-11-2021        | Flávia Guerreiro | [Feature O-516](https://omnibees.aha.io/features/O-516)                                   | Inclusão de Extra Multi-Property<br>Tradução da documentação para PT        |
 | ND                | Fabiana Sobreiro | [Documentação Base](https://omnibeesportugal.sharepoint.com/:w:/r/sites/Produtos/_layouts/15/Doc.aspx?sourcedoc=%7b370C447F-DBA0-4972-A293-CC6450F58FF6%7d&file=02%20Extras.docx&action=default&mobileredirect=true) | Primeira documentação criada para Extras                                    |
-| 06-06-2024        | N8N              | -                                                                                         | Conversão da documentação para docusaurus                                   |
+| 07-06-2024        | N8N              | -                                                                                         | Conversão da documentação para docusaurus                                   |
 
 ### UI / UX
 | Data da última alteração | URL Design                                                                                                                                       | Referência de alteração |
@@ -188,6 +188,3 @@ A tela deve validar as permissões do usuário e exibir as informações de acor
 | 18-01-2024               | [https://xd.adobe.com/view/074e1a11-1fe4-4891-820e-e623840fc2de-521d/](https://xd.adobe.com/view/074e1a11-1fe4-4891-820e-e623840fc2de-521d/)     | [O-359](https://omnibees.aha.io/features/O-359)          |
 | 09-08-21                 | [https://xd.adobe.com/view/d401b40e-1fcd-4ec9-a4be-10603b5e94b1-8152/screen/9cd0ff42-7a3c-4b0d-9277-aa2bbfbbfc86/](https://xd.adobe.com/view/d401b40e-1fcd-4ec9-a4be-10603b5e94b1-8152/screen/9cd0ff42-7a3c-4b0d-9277-aa2bbfbbfc86/) | [O-516](https://omnibees.aha.io/features/O-516)          |
 | ND                       | [$/Omnibees/OB/UI Design/Protur/Main/OMNIBEES_v02/Release/Extras](https://tfs.omnibees.com/tfs/IDTProjects/Omnibees/_versionControl?path=$/Omnibees/OB/UI%20Design/Protur/Main/OMNIBEES_v02/Release/Extras) | ND                      |
-
-Consultar [Traduções](https://omnibeesportugal.sharepoint.com/sites/documentacaoproduto/SitePages/Beehive/Transversais/Tradu%C3%A7%C3%B5es.aspx)
-Consultar [Definição de Entidade](https://omnibeesportugal.sharepoint.com/sites/documentacaoproduto/SitePages/Beehive/Transversais/Entidades.aspx)
