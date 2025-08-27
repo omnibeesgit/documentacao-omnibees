@@ -7,15 +7,15 @@ slug: /
 
 # Atrações
 
-As atrações são criadas no menu **Gestão da Propriedade** e, se assim o desejar, o hotel poderá enviá-las no e-mail de Pré-Estadia das Ações Automáticas. Elas também são exibidas no motor de reservas, fornecendo informações adicionais sobre as áreas circundantes e locais de interesse.
+As atrações são criadas no menu **Gestão da Propriedade** e, se assim o desejar, o hotel poderá enviá-las no e-mail de Pré-Estadia das Ações Automáticas. Além disso, são exibidas no motor de reservas, fornecendo informações adicionais sobre as áreas circundantes e locais de interesse.
 
 ## Lista de Atrações
 
-Nesta tela são listadas todas as atrações da propriedade.
+Neste ecrã são listadas todas as atrações da propriedade.
 
 ![Lista Atrações.JPG](/docs/beehive/gestao-de-propriedade/Lista Atrações.JPG)
 
-A lista contém as seguintes informações:
+A lista contém a seguinte informação:
 
 *   Data de Eliminação (apenas para as atrações eliminadas)
 *   Nome
@@ -33,30 +33,27 @@ Para a Data de Eliminação (apenas visível na lista das Atrações Removidas),
 
 A ação "Editar" deve ser visível apenas se um item for selecionado.
 
-Deve ser possível eliminar uma ou mais atrações em uma só ação. A opção "Eliminar" apenas é visível se um ou mais itens forem selecionados.
+Deve ser possível eliminar uma ou mais atrações numa só ação. A opção "Eliminar" é visível apenas se um ou mais itens forem selecionados.
 
 :::info Nota
-No menu *drop-down* que lista os itens ativos e eliminados, o usuário seleciona a opção "Eliminar" para listar todas as Atrações Eliminadas. A lista de Atrações Eliminadas deve incluir uma coluna extra para a data de eliminação.
-:::
-
-Para a coluna "Data de Eliminação", o formato da data muda de acordo com o idioma:
-
+No menu *drop-down* que lista os itens ativos e os eliminados, o utilizador seleciona a opção "Eliminar" para listar todas as Atrações Eliminadas. A lista de Atrações Eliminadas deve incluir uma coluna extra para a data de eliminação. Para esta coluna, o formato da data muda de acordo com o idioma:
 *   UK (mm/dd/aaaa hh:mm:ss AM/PM)
 *   Outros idiomas (dd/mm/aaaa hh:mm:ss)
+:::
 
 As "mais opções" (representadas na interface por três pontos) devem ser visíveis apenas quando um único item é selecionado, e a única opção é "Histórico de Alterações".
 
-Deve ser possível definir a tela como Favorita (para ser incluída no Menu de Navegação de Favoritos).
+Deve ser possível definir o ecrã como Favorito (para ser incluído no Menu de Navegação de Favoritos).
 
-O usuário clica em "Atualizar" para recarregar a tela com as informações atualizadas.
+O utilizador clica em "Atualizar" para recarregar o ecrã com a informação atualizada.
 
-A tela deve validar as permissões do usuário e exibir as informações de acordo.
+O ecrã deve validar as permissões do utilizador e mostrar a informação de acordo.
 
 ## Criar e Editar Atrações
 
-Nesta tela é possível criar e editar uma atração.
+Neste ecrã é possível criar e editar uma atração.
 
-O usuário deve preencher todos os campos obrigatórios e salvar. Quando a operação é concluída, a Atração estará pronta para ser utilizada.
+O utilizador deve preencher todos os campos obrigatórios e salvar. Quando a operação é concluída, a Atração estará pronta para ser utilizada.
 
 ![Nova Atração.JPG](/docs/beehive/gestao-de-propriedade/Nova Atração.JPG)
 
@@ -83,7 +80,7 @@ O Nome deve ter um máximo de 100 caracteres e deve ser único. A descrição de
 
 O Nome da Categoria pode ter até um máximo de 50 caracteres.
 
-O usuário deve poder selecionar uma categoria da lista de todas as categorias de atrações existentes.
+O utilizador deve poder selecionar uma categoria da lista de todas as categorias de atrações existentes.
 
 O URL deve ser válido, seguindo o padrão:
 
@@ -93,69 +90,69 @@ O URL deve ser válido, seguindo o padrão:
 
 É possível preencher o endereço diretamente nos campos ou através do Google Maps.
 
-Quando se está usando o Google Maps, é possível pesquisar por um endereço específico ou escolher uma localização diretamente pelo mapa (este deve incluir funcionalidades como *zoom in* e *zoom out*, vista de satélite, vista de rua e a minha localização). Após encontrar a localização correta, é possível usar o endereço, as coordenadas GPS ou ambas.
+Quando se está a usar o Google Maps, é possível pesquisar por uma morada específica ou escolher uma localização diretamente pelo mapa (este deve incluir funcionalidades como *zoom in* e *zoom out*, vista de satélite, vista de rua e a minha localização). Depois de encontrar a localização correta, é possível usar a morada, as coordenadas GPS ou ambas.
 
-A API deve retornar a lista de Países, Estados e Cidades. Quando um usuário seleciona um determinado país, a lista de Estados corresponde ao país selecionado. O mesmo acontece para as cidades, cuja lista corresponde ao Estado selecionado.
+A API deve retornar a lista de Países, Estados e Cidades. Quando um utilizador seleciona determinado país, a lista de Estados corresponde ao país selecionado. O mesmo acontece para as cidades, cuja lista corresponde ao Estado selecionado.
 
-O sistema valida as informações inseridas nos campos "Longitude" e "Latitude". A Latitude deve estar entre 90 e -90. A Longitude deve estar entre 180 e -180.
+O sistema valida a informação inserida nos campos "Longitude" e "Latitude". A Latitude deve estar entre 90 e -90. A Longitude deve estar entre 180 e -180.
 
-O usuário pode carregar/eliminar uma foto:
+O utilizador pode carregar/eliminar 1 foto:
 
 *   O tamanho máximo é de 1MB.
 :::info Nota
-Avaliar com a equipe técnica se alguma compressão de imagem está sendo aplicada para verificar a viabilidade deste limite.
+Avaliar com a equipa técnica se está a ser feita alguma compressão à imagem para se perceber se este limite é viável.
 :::
-*   Gerar *thumbnail* de 100x100px (redimensionamento + corte centralizado).
-*   Tamanho mínimo: 960px de largura (Largura mínima para o Motor de Reservas móvel).
+*   Gerar *thumbnail* de 100x100px (*resize* + *centered crop*).
+*   Tamanho mínimo: 960px de largura (Largura mínima do Motor de Reservas móvel).
 *   Formatos suportados: \*.JPG, \*.JPEG, \*.PNG.
 
-O usuário pode pré-visualizar a foto.
+O utilizador pode pré-visualizar a foto.
 
-Quando a atração está sendo criada, a opção "Histórico de Alterações" não deve estar visível. Esta opção é visível apenas no modo de edição.
+Quando a atração está a ser criada, a opção "Histórico de Alterações" não deve estar visível. Esta opção é visível apenas no modo de edição.
 
-A tela deve validar as permissões do usuário e exibir as informações de acordo.
+O ecrã deve validar as permissões do utilizador e mostrar a informação de acordo.
 
-O usuário clica em "Atualizar" para recarregar a tela com as informações atualizadas. Antes de atualizar, o usuário é avisado de que todas as alterações não salvas serão perdidas.
+O utilizador clica em "Atualizar" para recarregar o ecrã com a informação atualizada. Antes de atualizar, o utilizador é avisado de que todas as alterações não salvas serão perdidas.
 
 ## Eliminar Atrações
 
 É possível eliminar uma ou mais atrações.
 
-É possível eliminar uma ou mais atrações dentro da mesma ação.
+É possível eliminar uma ou mais atrações dentro da mesma operação.
 
 :::danger Cuidado
-Se o usuário tentar eliminar várias atrações e, por qualquer motivo, alguma das eliminações falhar, a ação deve ser revertida. Se a eliminação de um registro falhar, nenhuma outra atração deve ser eliminada.
+Se o utilizador tentar eliminar várias atrações e, por qualquer motivo, alguma das eliminações falhar, a operação deve ser revertida. Se a eliminação de um registo falhar, nenhuma outra atração deve ser eliminada.
 :::
 
-A tela deve validar as permissões do usuário e exibir as informações de acordo.
+O ecrã deve validar as permissões do utilizador e mostrar a informação de acordo.
 
 ## Categorias de Atrações
 
-Nesta tela é possível listar todas as categorias de atrações. Na própria lista é possível gerenciar as categorias: adicionar, editar e eliminar.
+Neste ecrã é possível listar todas as categorias de atrações. Na própria lista é possível gerir as categorias: adicionar, editar e eliminar.
 
-A lista deve incluir as seguintes informações:
+A lista deve incluir a seguinte informação:
 
 *   Nome
 
-Deve ser possível pesquisar e ordenar pelo nome da categoria. Não há opção de filtro.
+Deve ser possível pesquisar e ordenar pelo nome da categoria. Não há a opção de filtro.
 
 A lista deve incluir paginação (50 itens).
 
-O usuário pode adicionar uma nova categoria, definindo o nome da categoria. O nome da categoria deve ser único.
+O utilizador pode adicionar uma nova categoria, definindo o nome da categoria. O nome da categoria tem que ser único.
 
 O Nome da Categoria pode ser definido em vários idiomas. O idioma padrão deve ser o idioma base da propriedade e os idiomas restantes devem ser os suportados pelo sistema.
 
 Deve ser possível editar e eliminar categorias de atrações existentes.
 
-Para atualizar a lista de Categorias de Atrações com as informações mais recentes, é necessário selecionar o botão "Atualizar".
+Para atualizar a lista de Categorias de Atrações com a informação mais recente, é necessário selecionar o botão "Atualizar".
 
 ### Adicionar Categoria diretamente na Atração (painel lateral esquerdo)
 
-Nesta tela é possível criar uma nova categoria para ser usada em qualquer atração.
+Neste ecrã é possível criar uma nova categoria para ser usada em qualquer atração.
 
-O usuário deve preencher todos os campos obrigatórios e salvar. Quando a operação é concluída com sucesso, a categoria estará pronta para ser usada.
+O utilizador deve preencher todos os campos obrigatórios e guardar. Quando a operação é concluída com sucesso, a categoria estará pronta para ser usada.
 
-O usuário pode adicionar uma nova categoria, definindo o nome da categoria. O nome da categoria deve ser único.
+O utilizador pode adicionar uma nova categoria, definindo o nome da categoria. O nome da categoria tem que ser único.
 
 O Nome da Categoria pode ser definido em vários idiomas. O idioma padrão deve ser o idioma base da propriedade e os idiomas restantes devem ser os suportados pelo sistema.
 
