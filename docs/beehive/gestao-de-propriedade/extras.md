@@ -87,7 +87,7 @@ Nome e Descrição podem ser definidos em vários idiomas. O idioma padrão deve
 
 O valor pode ser definido em várias moedas. A moeda padrão deve ser a moeda base da propriedade, e as demais moedas devem ser aquelas que foram configuradas na propriedade como moedas adicionais.
 
-Ao apagar um valor definido em uma moeda, o sistema verifica se o extra está associado a tarifas ou pacotes que estejam definidos nessa mesma moeda. Em caso afirmativo, o usuário é avisado de que essa moeda deve ter um valor definido.
+Ao apagar um valor definido em uma moeda, o sistema verifica se o extra está associado a tarifas ou pacotes que estejam definidos nessa mesma moeda e, em caso afirmativo, o usuário é avisado de que essa moeda deve ter um valor definido.
 
 Ao criar um novo extra, o estado padrão é **Ativo**.
 
@@ -172,15 +172,15 @@ A tela deve validar as permissões do usuário e exibir as informações de acor
 
 **Para mais detalhes sobre o funcionamento de Extras Multi-Property, consulte [Extras Multi-Property](https://omnibeesportugal.sharepoint.com/sites/documentacaoproduto/SitePages/Beehive/MultiProperty/Extras%20Multi-Property.aspx).**
 
----
+## Histórico
 
 ### Histórico de alterações e referências
 | Data da alteração | Owner            | Referência de alteração                                                                   | Observações                                                                 |
 | :---------------- | :--------------- | :---------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------- |
+| 07-06-2024        | N8N              | -                                                                                         | Conversão da documentação para docusaurus                                   |
 | 26-03-2024        | Flávia Guerreiro | [O-359](https://omnibees.aha.io/features/O-359)                                           | Aba Tarifas e Pacotes                                                       |
 | 15-11-2021        | Flávia Guerreiro | [Feature O-516](https://omnibees.aha.io/features/O-516)                                   | Inclusão de Extra Multi-Property<br />Tradução da documentação para PT      |
 | ND                | Fabiana Sobreiro | [Documentação Base](https://omnibeesportugal.sharepoint.com/:w:/r/sites/Produtos/_layouts/15/Doc.aspx?sourcedoc=%7b370C447F-DBA0-4972-A293-CC6450F58FF6%7d&file=02%20Extras.docx&action=default&mobileredirect=true) | Primeira documentação criada para Extras                                    |
-| 07-06-2024        | N8N              | -                                                                                         | Conversão da documentação para docusaurus                                   |
 
 ### UI / UX
 | Data da última alteração | URL Design                                                                                                                                       | Referência de alteração |
