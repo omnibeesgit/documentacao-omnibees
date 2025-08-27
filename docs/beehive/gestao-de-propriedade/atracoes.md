@@ -2,7 +2,7 @@
 sidebar_label: Atrações
 title: Atrações
 description: Este documento detalha a gestão de atrações, incluindo a listagem, criação, edição e eliminação de atrações e suas categorias, com foco na configuração de detalhes, localização e imagens para exibição em motores de reserva.
-slug: /
+slug: /atracoes
 ---
 
 # Atrações
@@ -13,7 +13,7 @@ As atrações são criadas no menu **Gestão da Propriedade** e, se assim o dese
 
 Neste ecrã são listadas todas as atrações da propriedade.
 
-![Lista Atrações.JPG](/docs/beehive/gestao-de-propriedade/Lista Atrações.JPG)
+![Lista Atrações.JPG](/docs/beehive/gestao-de-propriedade/atracoes/Lista Atrações.JPG)
 
 A lista contém a seguinte informação:
 
@@ -45,7 +45,7 @@ As "mais opções" (representadas na interface por três pontos) devem ser visí
 
 Deve ser possível definir o ecrã como Favorito (para ser incluído no Menu de Navegação de Favoritos).
 
-O utilizador clica em "Atualizar" para recarregar o ecrã com a informação atualizada.
+O utilizador clica em "Atualizar" para recarregar o ecrã com as informações atualizadas.
 
 O ecrã deve validar as permissões do utilizador e mostrar a informação de acordo.
 
@@ -55,7 +55,7 @@ Neste ecrã é possível criar e editar uma atração.
 
 O utilizador deve preencher todos os campos obrigatórios e salvar. Quando a operação é concluída, a Atração estará pronta para ser utilizada.
 
-![Nova Atração.JPG](/docs/beehive/gestao-de-propriedade/Nova Atração.JPG)
+![Nova Atração.JPG](/docs/beehive/gestao-de-propriedade/atracoes/Nova Atração.JPG)
 
 | **Campo**       | **Obrigatório?**      |
 | :-------------- | :-------------------- |
@@ -103,7 +103,7 @@ O utilizador pode carregar/eliminar 1 foto:
 Avaliar com a equipa técnica se está a ser feita alguma compressão à imagem para se perceber se este limite é viável.
 :::
 *   Gerar *thumbnail* de 100x100px (*resize* + *centered crop*).
-*   Tamanho mínimo: 960px de largura (Largura mínima do Motor de Reservas móvel).
+*   Tamanho mínimo: 960px de largura (Largura mínima para o Motor de Reservas móvel).
 *   Formatos suportados: \*.JPG, \*.JPEG, \*.PNG.
 
 O utilizador pode pré-visualizar a foto.
@@ -134,11 +134,11 @@ A lista deve incluir a seguinte informação:
 
 *   Nome
 
-Deve ser possível pesquisar e ordenar pelo nome da categoria. Não há a opção de filtro.
+Deve ser possível pesquisar e ordenar pelo nome da categoria. Não há opção de filtro.
 
 A lista deve incluir paginação (50 itens).
 
-O utilizador pode adicionar uma nova categoria, definindo o nome da categoria. O nome da categoria tem que ser único.
+O utilizador pode adicionar uma nova categoria, definindo o nome da categoria. O nome da categoria deve ser único.
 
 O Nome da Categoria pode ser definido em vários idiomas. O idioma padrão deve ser o idioma base da propriedade e os idiomas restantes devem ser os suportados pelo sistema.
 
@@ -152,7 +152,7 @@ Neste ecrã é possível criar uma nova categoria para ser usada em qualquer atr
 
 O utilizador deve preencher todos os campos obrigatórios e guardar. Quando a operação é concluída com sucesso, a categoria estará pronta para ser usada.
 
-O utilizador pode adicionar uma nova categoria, definindo o nome da categoria. O nome da categoria tem que ser único.
+O utilizador pode adicionar uma nova categoria, definindo o nome da categoria. O nome da categoria deve ser único.
 
 O Nome da Categoria pode ser definido em vários idiomas. O idioma padrão deve ser o idioma base da propriedade e os idiomas restantes devem ser os suportados pelo sistema.
 
