@@ -17,7 +17,7 @@ Nesta tela são listadas todas as atrações da propriedade.
 
 A lista contém as seguintes informações:
 
-*   Data de Eliminação (apenas para as atrações excluídas)
+*   Data de Eliminação (apenas para as atrações eliminadas)
 *   Nome
 *   Categoria
 *   URL
@@ -85,7 +85,7 @@ O Nome da Categoria pode ter até um máximo de 50 caracteres.
 
 O usuário deve poder selecionar uma categoria da lista de todas as categorias de atrações existentes.
 
-O URL deve ser válido e seguir um formato padrão.
+O URL deve ser válido, seguindo o padrão:
 
 ```regex
 ^(((ht|f){1}(tp(s?)\:[\/]{2}))|((www\.){1}))[-a-zA-Z0-9@:%\_\+.\~#?&\/=]+$
@@ -149,7 +149,7 @@ Deve ser possível editar e eliminar categorias de atrações existentes.
 
 Para atualizar a lista de Categorias de Atrações com as informações mais recentes, é necessário selecionar o botão "Atualizar".
 
-### Adicionar Categoria diretamente na Atração (left side panel)
+### Adicionar Categoria diretamente na Atração (painel lateral esquerdo)
 
 Nesta tela é possível criar uma nova categoria para ser usada em qualquer atração.
 
@@ -162,16 +162,12 @@ O Nome da Categoria pode ser definido em vários idiomas. O idioma padrão deve 
 ## Histórico
 
 ### Histórico de alterações e referências
-| Data da alteração | Owner            | Referência de alteração                                                                   | Observações                                                                 |
-| :---------------- | :--------------- | :---------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------- |
-| 07-06-2024        | N8N              | -                                                                                         | Conversão da documentação para docusaurus                                   |
-| 26-03-2024        | Flávia Guerreiro | [O-359](https://omnibees.aha.io/features/O-359)                                           | Aba Tarifas e Pacotes                                                       |
-| 15-11-2021        | Flávia Guerreiro | [Feature O-516](https://omnibees.aha.io/features/O-516)                                   | Inclusão de Extra Multi-Property<br />Tradução da documentação para PT      |
-| ND                | Fabiana Sobreiro | [Documentação Base](https://omnibeesportugal.sharepoint.com/:w:/r/sites/Produtos/_layouts/15/Doc.aspx?sourcedoc=%7b370C447F-DBA0-4972-A293-CC6450F58FF6%7d&file=02%20Extras.docx&action=default&mobileredirect=true) | Primeira documentação criada para Extras                        |
+| Data da alteração | Owner            | Referência de alteração | Observações                               |
+| :---------------- | :--------------- | :---------------------- | :---------------------------------------- |
+| 16-03-2023        | Flávia Guerreiro | -                       | Migração da documentação                  |
+| 27-08-2025        | N8N              | -                       | Conversão da documentação para docusaurus |
 
 ### UI / UX
 | Data da última alteração | URL Design                                                                                                                                       | Referência de alteração |
 | :----------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------- |
-| 18-01-2024               | [https://xd.adobe.com/view/074e1a11-1fe4-4891-820e-e623840fc2de-521d/](https://xd.adobe.com/view/074e1a11-1fe4-4891-820e-e623840fc2de-521d/)     | [O-359](https://omnibees.aha.io/features/O-359)          |
-| 09-08-21                 | [https://xd.adobe.com/view/d401b40e-1fcd-4ec9-a4be-10603b5e94b1-8152/screen/9cd0ff42-7a3c-4b0d-9277-aa2bbfbbfc86/](https://xd.adobe.com/view/d401b40e-1fcd-4ec9-a4be-10603b5e94b1-8152/screen/9cd0ff42-7a3c-4b0d-9277-aa2bbfbbfc86/) | [O-516](https://omnibees.aha.io/features/O-516)          |
-| ND                       | [$/Omnibees/OB/UI Design/Protur/Main/OMNIBEES_v02/Release/Extras](https://tfs.omnibees.com/tfs/IDTProjects/Omnibees/_versionControl?path=$/Omnibees/OB/UI%20Design/Protur/Main/OMNIBEES_v02/Release/Extras) | ND                      |
+| ND                       | [https://tfs.omnibees.com/tfs/IDTProjects/Omnibees/_versionControl?path=%24%2FOmnibees%2FOB%2FUI%20Design%2FProtur%2FMain%2FOMNIBEES_v02%2FRelease%2FAttractions](https://tfs.omnibees.com/tfs/IDTProjects/Omnibees/_versionControl?path=$/Omnibees/OB/UI%20Design/Protur/Main/OMNIBEES_v02/Release/Attractions) | ND                      |
