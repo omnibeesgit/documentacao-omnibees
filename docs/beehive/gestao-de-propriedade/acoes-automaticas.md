@@ -52,18 +52,18 @@ O utilizador deve preencher todos os campos obrigatórios e guardá-los.
 
 ### Critérios de Aceitação
 
-| **Campo**                                | **Obrigatório?** |
-| :--------------------------------------- | :--------------- |
-| **Enviar para**                          | Sim              |
-| &nbsp;&nbsp;&nbsp;**Hóspede**          | Não              |
-| &nbsp;&nbsp;&nbsp;**Agente de Viagens** | Não              |
-| &nbsp;&nbsp;&nbsp;**Empresas**          | Não              |
-| &nbsp;&nbsp;&nbsp;**Outro**             | Não              |
+| **Campo**                                   | **Obrigatório?** |
+| :------------------------------------------ | :--------------- |
+| **Enviar para**                             | Sim              |
+| &nbsp;&nbsp;&nbsp;**Hóspede**             | Não              |
+| &nbsp;&nbsp;&nbsp;**Agente de Viagens**   | Não              |
+| &nbsp;&nbsp;&nbsp;**Empresas**            | Não              |
+| &nbsp;&nbsp;&nbsp;**Outro**               | Não              |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Lista de Endereços de Email** | Não              |
-| **Assunto**                              | Sim              |
-| **Origem da Reserva**                    | Não              |
-| **Modelo**                               | Não              |
-| &nbsp;&nbsp;&nbsp;**Texto Introdutório** | Não              |
+| **Assunto**                                 | Sim              |
+| **Origem da Reserva**                       | Não              |
+| **Modelo**                                  | Não              |
+| &nbsp;&nbsp;&nbsp;**Texto Introdutório**  | Não              |
 
 É possível configurar vários emails com diferentes configurações para diferentes eventos.
 Para cada email, é obrigatório definir para quem o email deve ser enviado. O campo "Enviar para" tem as seguintes opções:
@@ -123,7 +123,7 @@ Se o utilizador selecionar a opção "Enviar para: Outro", é obrigatório adici
 O assunto pode ser definido em vários idiomas. O idioma padrão deve ser o idioma base da propriedade, e os restantes idiomas devem ser os definidos na configuração da propriedade.
 
 :::info
-Os dias antes do *check-in* devem ser maiores ou iguais a zero e não têm nenhum valor por definição.
+Os dias antes do *check-in* devem ser maiores ou iguais a zero e não têm nenhum valor por padrão.
 :::
 
 A API deve retornar os modelos disponíveis para cada evento. Para cada modelo, o utilizador consegue aceder a uma pré-visualização do modelo de email e definir um texto introdutório.
@@ -171,7 +171,7 @@ Se o utilizador selecionar a opção "Enviar para: Outro", é obrigatório adici
 O assunto pode ser definido em vários idiomas. O idioma padrão deve ser o idioma base da propriedade, e os restantes idiomas devem ser os definidos na configuração da propriedade.
 
 :::info
-Os dias depois do *check-out* devem ser maiores ou iguais a zero e não têm nenhum valor por definição.
+Os dias depois do *check-out* devem ser maiores ou iguais a zero e não têm nenhum valor por padrão.
 :::
 
 A API deve retornar os modelos disponíveis para cada evento. Para cada modelo, o utilizador consegue aceder a uma pré-visualização do modelo de email e definir um texto introdutório.
@@ -179,7 +179,7 @@ O texto introdutório pode ser configurado em vários idiomas. O idioma padrão 
 É possível definir se o email de Pós-Estadia deve incluir informações sobre eventos, códigos promocionais e pacotes que ocorrerão nos meses seguintes.
 
 :::info
-O limite de meses deve ser maior ou igual a zero e não tem nenhum valor por definição.
+O limite de meses deve ser maior ou igual a zero e não tem nenhum valor por padrão.
 :::
 
 ## Ações Automáticas: Pedido de Reserva / Pedido de Reserva Cancelado / Pedido de Reserva Recusado (RF 1.1.4)
@@ -191,17 +191,17 @@ O utilizador deve preencher todos os campos obrigatórios e guardá-los.
 
 ### Critérios de Aceitação
 
-| **Campo**                                | **Obrigatório?** |
-| :--------------------------------------- | :--------------- |
-| **Enviar para**                          | Sim              |
-| &nbsp;&nbsp;&nbsp;**Hóspede**          | Não              |
-| &nbsp;&nbsp;&nbsp;**Agente de Viagens** | Não              |
-| &nbsp;&nbsp;&nbsp;**Empresas**          | Não              |
-| &nbsp;&nbsp;&nbsp;**Outro**             | Não              |
+| **Campo**                                   | **Obrigatório?** |
+| :------------------------------------------ | :--------------- |
+| **Enviar para**                             | Sim              |
+| &nbsp;&nbsp;&nbsp;**Hóspede**             | Não              |
+| &nbsp;&nbsp;&nbsp;**Agente de Viagens**   | Não              |
+| &nbsp;&nbsp;&nbsp;**Empresas**            | Não              |
+| &nbsp;&nbsp;&nbsp;**Outro**               | Não              |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Lista de Endereços de Email** | Não              |
-| **Assunto**                              | Sim              |
-| **Modelo**                               | Não              |
-| &nbsp;&nbsp;&nbsp;**Texto Introdutório** | Não              |
+| **Assunto**                                 | Sim              |
+| **Modelo**                                  | Não              |
+| &nbsp;&nbsp;&nbsp;**Texto Introdutório**  | Não              |
 
 É possível configurar vários emails com configurações diferentes para diferentes eventos.
 Para cada email, é obrigatório definir para quem o email deve ser enviado. O campo "Enviar para" tem as seguintes opções:
@@ -224,13 +224,13 @@ Configurar um ou mais emails para serem enviados quando uma nova tarifa é criad
 
 ### Critérios de Aceitação
 
-| **Campo**                                | **Obrigatório?** |
-| :--------------------------------------- | :--------------- |
-| **Enviar para**                          | Sim              |
+| **Campo**                                   | **Obrigatório?** |
+| :------------------------------------------ | :--------------- |
+| **Enviar para**                             | Sim              |
 | &nbsp;&nbsp;&nbsp;**Lista de Endereços de Email** | Não              |
-| **Assunto**                              | Sim              |
-| **Modelo**                               | Não              |
-| &nbsp;&nbsp;&nbsp;**Texto Introdutório** | Não              |
+| **Assunto**                                 | Sim              |
+| **Modelo**                                  | Não              |
+| &nbsp;&nbsp;&nbsp;**Texto Introdutório**  | Não              |
 
 É possível configurar vários emails com configurações diferentes para diferentes eventos.
 É obrigatório definir para quem o email deve ser enviado. É obrigatório adicionar, pelo menos, um endereço de email, embora seja possível adicionar vários endereços de email. O formato de email deve ser válido. `@` é um caractere obrigatório e deve ser único. O email deve seguir o seguinte formato: `[exemplo@dominio.com](mailto:exemplo@dominio.com)`.
@@ -246,11 +246,11 @@ Configurar um ou mais emails para serem enviados quando o limite de visualizaç�
 
 ### Critérios de Aceitação
 
-| **Campo**                                | **Obrigatório?** |
-| :--------------------------------------- | :--------------- |
-| **Enviar para**                          | Sim              |
+| **Campo**                                   | **Obrigatório?** |
+| :------------------------------------------ | :--------------- |
+| **Enviar para**                             | Sim              |
 | &nbsp;&nbsp;&nbsp;**Lista de Endereços de Email** | Sim              |
-| **Assunto**                              | Sim              |
+| **Assunto**                                 | Sim              |
 
 É possível configurar vários emails de Limite de Crédito com diferentes configurações.
 É obrigatório definir para quem o email deve ser enviado. É obrigatório adicionar, pelo menos, um endereço de email, embora seja possível adicionar vários endereços de email. O formato de email deve ser válido. `@` é um caractere obrigatório e deve ser único. O email deve seguir o seguinte formato: `[exemplo@dominio.com](mailto:exemplo@dominio.com)`.
