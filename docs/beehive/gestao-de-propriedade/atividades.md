@@ -23,7 +23,7 @@ A lista deve conter as seguintes informações:
 
 Deve ser possível pesquisar por qualquer coluna da lista, e o campo "**Pesquisar**" deve considerar o operador "contém".
 
-Deve ser possível ordenar por qualquer coluna da lista. O primeiro clique ordena de forma ascendente (A a Z), o segundo clique ordena de forma descendente (Z a A) e o terceiro clique regressa à ordem inicial.
+Deve ser possível ordenar por qualquer coluna da lista. O primeiro clique ordena de forma ascendente (A a Z), o segundo clique ordena de forma descendente (Z a A), e o terceiro clique regressa à ordem inicial.
 
 A ação "**Editar**" deve ser visível apenas se um item for selecionado.
 
@@ -49,8 +49,8 @@ O utilizador deve preencher todos os campos obrigatórios e salvar. Quando a ope
 
 | **Campo**     | **Obrigatório?** |
 | :------------ | :--------------- |
-| **Nome**      | S                |
-| **Categoria** | S                |
+| **Nome**      | Sim              |
+| **Categoria** | Sim              |
 
 O **Nome** da Atividade e da Categoria podem ser definidos em vários idiomas. O idioma *default* deve ser o idioma base da propriedade.
 
@@ -83,4 +83,9 @@ Se o utilizador tentar eliminar várias atividades e, por qualquer razão, algum
 O ecrã deve validar as permissões do utilizador e mostrar as informações de acordo.
 
 <h2 class="anchor anchorWithStickyNavbar_L91o" id="histórico">Histórico<a class="hash-link" href="#histórico" title="Link direto para Histórico">#</a></h2>
+
+| Data da alteração | Owner            | Referência de alteração | Observações                               |
+|-------------------|------------------|-------------------------|-------------------------------------------|
+| 28-08-2025        | N8N              | -                       | Conversão da documentação para docusaurus |
+| 16-03-2023        | Flávia Guerreiro | -                       | Migração da documentação                  |
 ```
