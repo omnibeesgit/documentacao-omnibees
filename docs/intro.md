@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+id: intro
+title: Introdução
+slug: /
 ---
 
 # Documentação de Produto

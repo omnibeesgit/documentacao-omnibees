@@ -59,7 +59,7 @@ const config: Config = {
         src: "img/omnibees.svg",
       },
       items: [
-        { to: "/docs", label: "Documentação", position: "left" },
+        { to: "/", label: "Documentação", position: "left", type: 'doc', docId: 'intro' },
         {
           href: "https://github.com/facebook/docusaurus",
           label: "GitHub",
@@ -74,8 +74,8 @@ const config: Config = {
           title: "Docs",
           items: [
             {
-              label: "Tutorial",
-              to: "/docs/intro",
+              label: "Documentação",
+              to: "/docs",
             },
           ],
         },
