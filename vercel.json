@@ -1,0 +1,4 @@
+{
+  "buildCommand": "node scripts/should-build.js && npm run build",
+  "outputDirectory": "build"
+}
