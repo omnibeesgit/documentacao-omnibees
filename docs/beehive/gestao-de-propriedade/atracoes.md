@@ -92,7 +92,7 @@ O **URL** deve ser válido. A expressão regular para validação é:
 
 É possível preencher o endereço diretamente nos campos ou através do **Google Maps**.
 
-Quando se está a usar o **Google Maps**, é possível pesquisar por uma morada específica ou escolher uma localização diretamente pelo mapa (este deve incluir funcionalidades como *zoom in* e *zoom out*, vista de satélite, vista de rua, a minha localização). Depois de encontrar a localização correta, é possível usar a morada, as coordenadas GPS ou ambas.
+Quando se está a usar o **Google Maps**, é possível pesquisar por um endereço específico ou escolher uma localização diretamente pelo mapa (este deve incluir funcionalidades como *zoom in* e *zoom out*, vista de satélite, vista de rua, a minha localização). Depois de encontrar a localização correta, é possível usar o endereço, as coordenadas GPS ou ambas.
 
 A **API** deve retornar a lista de **Países**, **Estados** e **Cidades**. Quando um utilizador seleciona um determinado país, a lista de **Estados** corresponde ao país selecionado. O mesmo acontece para as **Cidades**: a lista de cidades corresponde ao **Estado** selecionado.
 
@@ -168,3 +168,8 @@ O **Nome da Categoria** pode ser definido em vários idiomas. O idioma **padrão
 |-------------------|------------------|-------------------------|-------------------------------------------|
 | 28-08-2025        | N8N              | -                       | Conversão da documentação para docusaurus |
 | 16-03-2023        | Flávia Guerreiro | -                       | Migração da documentação                  |
+
+### UI / UX
+| Data da última alteração | URL Design                                                                                                                                       | Referência de alteração |
+|--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
+| ND                       | [https://tfs.omnibees.com/tfs/IDTProjects/Omnibees/_versionControl?path=%24%2FOmnibees%2FOB%2FUI%20Design%2FProtur%2FMain%2FOMNIBEES_v02%2FRelease%2FAttractions](https://tfs.omnibees.com/tfs/IDTProjects/Omnibees/_versionControl?path=%24%2FOmnibees%2FOB%2FUI%20Design%2FProtur%2FMain%2FOMNIBEES_v02%2FRelease%2FAttractions) | ND                       |
