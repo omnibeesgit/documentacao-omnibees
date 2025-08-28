@@ -23,16 +23,16 @@ A lista deve conter as seguintes informações:
 *   URL
 *   Estado
 
-Deve ser possível pesquisar por qualquer coluna da lista, e o campo "**Pesquisar**" deve considerar o operador "contém" (não é possível pesquisar pela data de eliminação).
+Deve ser possível pesquisar por qualquer coluna da lista, e o campo "**Pesquisar**" deve considerar o operador "**contém**" (não é possível pesquisar pela data de eliminação).
 
 Deve ser possível ordenar por qualquer coluna da lista.
 :::tip
 O primeiro clique ordena de forma ascendente (A a Z), o segundo clique ordena de forma descendente (Z a A), e o terceiro clique regressa à ordem inicial.
 :::
 
-Deve ser possível filtrar por qualquer coluna da lista. Todos os filtros devem ser de **texto livre**, e o filtro deve considerar o operador "contém".
+Deve ser possível filtrar por qualquer coluna da lista. Todos os filtros devem ser de **texto livre**, e o filtro deve considerar o operador "**contém**".
 
-Para a **Data de Eliminação** (apenas visível na lista das Atrações Removidas), deve-se considerar o operador "igual", e o **seletor de data** deve ter selecionado, por definição, a data atual.
+Para a **Data de Eliminação** (apenas visível na lista das **Atrações Removidas**), deve-se considerar o operador "igual", e o **seletor de data** deve ter selecionado, por definição, a data atual.
 
 A ação "**Editar**" deve ser visível apenas se um item for selecionado.
 
@@ -46,7 +46,7 @@ Para a coluna **Data de Eliminação**, o formato da data muda de acordo com o i
 
 As "**Mais opções**" (representadas na *UI* por três pontos) devem ser visíveis apenas quando um único item é selecionado, e a única opção é "**Histórico de Alterações**".
 
-Deve ser possível **definir** o ecrã como favorito (para ser incluído no Menu de Navegação de Favoritos).
+Deve ser possível **definir** o ecrã como favorito (para ser incluído no **Menu de Navegação de Favoritos**).
 
 O utilizador clica em "**Atualizar**" para recarregar o ecrã com a informação atualizada.
 
