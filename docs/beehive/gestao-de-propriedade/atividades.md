@@ -1,9 +1,8 @@
-```markdown
 ---
 sidebar_label: Atividades
 title: Atividades
 description: ""
-slug: /atividades
+slug: /beehive/gestao-de-propriedade/atividades
 ---
 
 ## Histórico
@@ -12,4 +11,3 @@ slug: /atividades
 |-------------------|------------------|-------------------------|-------------------------------------------|
 | 28-08-2025        | N8N              | -                       | Conversão da documentação para docusaurus |
 | 16-03-2023        | Flávia Guerreiro | -                       | Migração da documentação                  |
-```
