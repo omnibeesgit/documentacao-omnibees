@@ -12,8 +12,12 @@ As Atividades são criadas no menu Gestão da Propriedade e escolhidas no Motor 
 ## Lista de Atividades
 
 Neste ecrã são listadas todas as Atividades da propriedade.
-
+1:
 ![Lista Atividades.JPG](/assets/beehive/gestao-de-propriedade/atividades/Lista Atividades.JPG)
+2:
+![Lista Atividades.JPG](assets/beehive/gestao-de-propriedade/atividades/Lista Atividades.JPG)
+3:
+![Lista Atividades.JPG](https://documentacao-omnibees.vercel.app/assets/beehive/gestao-de-propriedade/atividades/Lista Atividades.JPG)
 
 A lista deve conter as seguintes informações:
 
