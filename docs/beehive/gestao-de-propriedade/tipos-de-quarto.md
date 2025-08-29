@@ -7,11 +7,11 @@ slug: /beehive/gestao-de-propriedade/tipos-de-quarto
 
 # Tipos de Quarto
 
-Um tipo de quarto é a unidade básica de uma propriedade/hotel. Possui uma quantidade disponível, normalmente a quantidade física de quartos desse tipo que existem no hotel, e algumas características associadas, como amenidades, fotos, etc.
+Um tipo de quarto é a unidade básica de uma propriedade/hotel. Possui uma quantidade disponível, normalmente a quantidade física de quartos desse tipo existente no hotel, e algumas características associadas, como amenidades, fotos, etc.
 
 ## Lista de Tipos de Quarto
 
-Neste ecrã é possível listar todos os Tipos de Quarto da Propriedade.
+Neste ecrã, é possível listar todos os Tipos de Quarto da Propriedade.
 
 ![Lista Tipos de Quarto](</assets/beehive/gestao-de-propriedade/tipos-de-quarto/Lista Tipos de Quarto.png> "Lista Tipos de Quarto")
 
@@ -38,9 +38,9 @@ Deve ser possível filtrar por qualquer coluna da lista. Os filtros possíveis s
 *   Cama Extra
 *   Quantidade
 
-Todos os filtros são de texto livre, exceto o filtro da cama extra, que é do tipo boleano.
+Todos os filtros são de texto livre, exceto o filtro da cama extra, que é do tipo booleano.
 
-É possível ordenar por qualquer coluna da lista, e pesquisar por qualquer coluna, à exceção da coluna 'Cama Extra'.
+É possível ordenar por qualquer coluna da lista e pesquisar por qualquer coluna, à exceção da coluna 'Cama Extra'.
 
 O botão 'Eliminar' apenas deve estar visível se um ou mais itens forem selecionados.
 
@@ -56,7 +56,7 @@ As ações adicionais (representadas na UI por três pontos) devem estar visíve
     *   Pré-Visualizar
 *   Histórico de Alterações
 
-É possível compartilhar o Tipo de Quarto nas redes sociais (Facebook, LinkedIn, Twitter) e enviar o link por email. A API deve retornar o URL.
+É possível compartilhar o Tipo de Quarto nas redes sociais (Facebook, LinkedIn, Twitter e enviar o link por email). A API deve retornar o URL.
 
 Deve ser possível obter o URL do Motor de Reservas para o Tipo de Quarto selecionado e pré-visualizar essa informação. A API deve retornar o URL.
 
@@ -66,13 +66,15 @@ A lista deve incluir paginação (50 itens).
 
 O utilizador seleciona 'Eliminados' para listar todos os Tipos de Quarto Eliminados.
 
+User selects “Removed” to list the all the Deleted Room Types.
+
 O utilizador clica no botão 'Atualizar' para preencher a lista com a informação atualizada.
 
-A ecrã deve validar as permissões do utilizador e mostrar a informação correspondente.
+O ecrã deve validar as permissões do utilizador e mostrar a informação correspondente.
 
 ## Criar e Editar Tipos de Quarto
 
-Nesta ecrã é possível criar ou atualizar um Tipo de Quarto. O utilizador deve preencher todos os campos obrigatórios e guardar. Quando a operação é concluída, o Tipo de Quarto estará pronto para ser usado.
+Neste ecrã é possível criar ou atualizar um Tipo de Quarto. O utilizador deve preencher todos os campos obrigatórios e guardar. Quando a operação for concluída, o Tipo de Quarto estará pronto para ser usado.
 
 ![Criação Tipos de Quarto](</assets/beehive/gestao-de-propriedade/tipos-de-quarto/Criação Tipos de Quarto.png> "Criação Tipos de Quarto")
 
@@ -89,7 +91,7 @@ Nesta ecrã é possível criar ou atualizar um Tipo de Quarto. O utilizador deve
 | Mín. Limite de Preço | Não | - | Duas casas decimais. Valores maiores que 0. Na moeda base do hotel. |
 | Máx. Limite de Preço | Não | - | Duas casas decimais. Valores maiores que 0. Na moeda base do hotel. |
 | **Informação de Ocupação** | | | |
-| Número de Quartos | SIM | - | Números inteiros maiores que 0. |
+| Nº de Quartos | SIM | - | Números inteiros maiores que 0. |
 | Máx. de Hóspedes | Não | - | |
 | Mín. de Adultos | SIM | - | Números inteiros maiores que 0. O mínimo de adultos não pode ter um valor maior que o máximo de adultos. |
 | Máx. de Adultos | SIM | - | Números inteiros maiores que 0. O máximo de adultos não pode ter um valor menor que o mínimo de adultos. |
@@ -120,7 +122,7 @@ O nome e a descrição podem ser configurados em vários idiomas. O idioma padr�
 
 Não é possível ter Tipos de Quarto com o mesmo nome.
 
-A área do quarto, por padrão, é definida em metros (m²) mas pode ser alterada e definida em pés (ft²).
+A área do quarto, por padrão, é definida em metros (m²), mas pode ser alterada e definida em pés (ft²).
 
 Os valores dos 'Limites de Preços' são configurados na moeda base do hotel e não podem ser definidos para outras moedas.
 
@@ -130,11 +132,13 @@ Se o 'Mín. de Adultos' for maior que 1, é mostrada a seguinte mensagem de aler
 
 ![Screenshot 491](</assets/beehive/gestao-de-propriedade/tipos-de-quarto/Screenshot_491.png> "Screenshot 491")
 
-Embora o *modal* mencione o Motor de Reservas, a regra também é aplicada a pesquisas nos Pull.
+Embora o *modal* mencione o Motor de Reservas, a regra também é aplicada a pesquisas nos Pulls.
 
 Quando a ocupação do quarto é alterada ('Mín. de Adultos', 'Máx. de Adultos' ou 'Máx. de Crianças'), o sistema mostra a seguinte mensagem de alerta ao salvar as alterações:
 
 ![Screenshot 492](</assets/beehive/gestao-de-propriedade/tipos-de-quarto/Screenshot_492.png> "Screenshot 492")
+
+If the number of adults or children is decremented the system should alert the account manager that the prices of the removed occupancy will also be removed. The following warning message should be triggered “Room occupancy changed. Since the occupancy Adult 4 is no longer allowed, prices will be removed. Want to continue? Yes/No”.
 
 Apenas utilizadores com a **permissão** '**Utilizador pode editar a ocupação de um tipo de quarto**' (*PermissionCode 5044*) podem alterar a ocupação de adultos ('Mín. de Adultos' e 'Máx. de Adultos') e a ocupação de crianças ('Aceitar Crianças', 'Máx. de Crianças' e 'Máx. de Crianças Grátis').
 
@@ -144,7 +148,7 @@ Utilizadores com a **permissão** '**Utilizador não pode alterar quartos criado
 
 ### Amenidades
 
-As amenidades devem ser mostradas de acordo com a informação retornada pela API. Essa informação deve estar organizada em 4 colunas:
+As amenidades devem ser mostradas de acordo com a informação que é retornada pela API. Essa informação deve estar organizada em 4 colunas:
 
 | **1. Serviços Gerais** | **2. Produtos de Banheiro** | **3. Comida e Bebida** | **4. Entretenimento Multimédia** |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -154,7 +158,7 @@ As amenidades devem ser mostradas de acordo com a informação retornada pela AP
 
 O utilizador pode carregar ou eliminar 1 ou mais fotos.
 
-É possível carregar fotos através do botão 'Carregar Fotos', do atalho 'Carregar Fotos' (mostrado quando o quarto não tem nenhuma foto) e arrastando as fotos para a área de fotos do quarto.
+Pode carregar fotos através do botão 'Carregar Fotos', do atalho 'Carregar Fotos' (mostrado quando o quarto não tem nenhuma foto) e arrastando as fotos para a área de fotos do quarto.
 
 O sistema suporta os seguintes tipos de ficheiros:
 
@@ -172,7 +176,7 @@ O ícone de 'estrela' deve incluir uma *tooltip* com a seguinte informação: 'D
 
 A foto marcada como principal fica com uma 'estrela' e será mostrada como foto principal no Motor de Reservas.
 
-Uma vez definida uma foto como principal no quarto, não é possível deixar o quarto sem uma foto principal; pode-se alterar a foto principal, mas não removê-la.
+Uma vez definida uma foto como principal no quarto, não é possível deixar o quarto sem uma foto marcada como principal; pode-se alterar a foto principal, mas não removê-la.
 
 O utilizador pode pré-visualizar todas as fotos do seu quarto numa galeria de fotos.
 
@@ -234,7 +238,7 @@ Os Tipos de Quarto eliminados são removidos das tarifas/pacotes a que estavam a
 
 Estas ações ficam registadas nos históricos de alterações de 'Tipos de Quarto' e de 'Tarifas'.
 
-A ecrã deve validar as permissões do utilizador e mostrar a informação correspondente.
+O ecrã deve validar as permissões do utilizador e mostrar a informação correspondente.
 
 ## Histórico
 
