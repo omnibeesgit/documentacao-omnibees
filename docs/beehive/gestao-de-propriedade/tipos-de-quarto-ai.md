@@ -3,6 +3,7 @@ title: Tipos de Quarto
 description: Gestão e categorização dos tipos de alojamento disponíveis no sistema.
 slug: /beehive/gestao-de-propriedade/tipos-de-quarto
 sidebar_label: Tipos de Quarto
+sidebar_position: 1
 ---
 
 # Tipos de Quarto
@@ -16,7 +17,7 @@ sidebar_label: Tipos de Quarto
 
 ## 2. Descrição Geral
 
-A funcionalidade "Tipos de Quarto" permite definir e categorizar os diferentes tipos de alojamento disponíveis no sistema. O utilizador associa características específicas como nome, capacidade, estado e ordem de apresentação a cada tipo, facilitando a gestão da propriedade e a configuração de disponibilidade.
+A funcionalidade "Tipos de Quarto" permite aos utilizadores definir e gerir as diversas categorias de alojamento disponíveis na propriedade. Esta é essencial para organizar e disponibilizar os quartos de forma eficiente, associando características específicas a cada tipo, como nome, capacidade, estado e ordem de apresentação.
 
 ## 3. Objetivo da Funcionalidade
 
@@ -31,7 +32,7 @@ O sistema assegura a consistência dos dados ao validar as operações de criaç
 1.  O utilizador acede ao menu `Gestão de Propriedade > Tipos de Quarto`.
 2.  O utilizador clica no botão `Adicionar novo Tipo de Quarto`.
 3.  O sistema apresenta um formulário para preenchimento dos dados do novo tipo de quarto.
-4.  O utilizador preenche os campos: **Nome**, **Capacidade**, **Estado** e **Ordem**.
+4.  O utilizador preenche os campos: **Nome**, **Capacidade**, **Estado** (Ativo/Inativo) e **Ordem**.
 5.  O utilizador clica em `Guardar`.
 6.  O sistema valida os dados e, em caso de sucesso, guarda o novo tipo de quarto e apresenta-o na lista.
 
@@ -91,12 +92,12 @@ O sistema assegura a consistência dos dados ao validar as operações de criaç
 
 ### 7.2. Caso de Erro: Tentativa de eliminação de tipo de quarto em uso
 
-*   **Pré-condições**: Existe um tipo de quarto "Quarto Duplo" que está associado a pelo menos um quarto registado no sistema ou a uma reserva ativa. O utilizador tem permissão para eliminar tipos de quarto.
+*   **Pré-condições**: Existe um tipo de quarto "Quarto Single" que está associado a pelo menos um quarto registado no sistema ou a uma reserva ativa. O utilizador tem permissão para eliminar tipos de quarto.
 *   **Passos**:
     1.  O utilizador navega para a secção "Tipos de Quarto".
-    2.  O utilizador clica no ícone "Eliminar" junto ao "Quarto Duplo".
+    2.  O utilizador clica no ícone "Eliminar" junto ao "Quarto Single".
     3.  O utilizador confirma a eliminação na caixa de diálogo.
-*   **Resultado esperado**: O sistema apresenta uma mensagem de erro ("Não é possível eliminar o tipo de quarto, pois está associado a quartos existentes ou reservas ativas."), e o tipo de quarto "Quarto Duplo" permanece inalterado na lista.
+*   **Resultado esperado**: O sistema apresenta uma mensagem de erro ("Não é possível eliminar o tipo de quarto, pois está associado a quartos existentes ou reservas ativas."), e o tipo de quarto "Quarto Single" permanece inalterado na lista.
 
 ### 7.3. Caso de Exceção: Falha na validação do campo "Nome" ao criar
 
@@ -123,8 +124,8 @@ O sistema assegura a consistência dos dados ao validar as operações de criaç
     *   `PermissionCode 5043`: Eliminar Tipos de Quarto.
 *   **Integrações**: Não são conhecidas integrações externas diretas.
 *   **Dados necessários**:
-    *   Registos de quartos existentes no sistema.
-    *   Registos de reservas ativas.
+    *   Registos de quartos existentes no sistema para validação da eliminação.
+    *   Registos de reservas ativas para validação da eliminação.
 
 ## 9. KPIs e Métricas Associadas
 
@@ -148,7 +149,7 @@ A "Ordem" de apresentação é um campo importante para a experiência do utiliz
 
 | Componente | Observações |
 | :--------- | :---------- |
-| Botões | `Adicionar novo Tipo de Quarto`, `Guardar`, `Editar`, `Eliminar`, `Cancelar` |
+| Botões | `Adicionar novo Tipo de Quarto`, `Guardar`, `Editar`, `Eliminar`, `Cancelar` (assumido) |
 | Campos | `Nome`, `Capacidade`, `Estado` (dropdown/toggle), `Ordem` |
 | Ícones | Lápis (edição), Caixote do lixo (eliminação) |
 | Listagens | Tabela com tipos de quarto, permitindo ordenação e pesquisa (assumido) |
