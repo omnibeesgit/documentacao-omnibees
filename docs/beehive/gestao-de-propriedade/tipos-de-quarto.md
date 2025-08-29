@@ -56,7 +56,7 @@ As ações adicionais (representadas na UI por três pontos) devem estar visíve
     *   Pré-Visualizar
 *   Histórico de Alterações
 
-É possível compartilhar o Tipo de Quarto nas redes sociais (Facebook, LinkedIn, Twitter e enviar o link por email). A API deve retornar o URL.
+É possível compartilhar o Tipo de Quarto nas redes sociais (Facebook, LinkedIn, Twitter) e enviar o link por email. A API deve retornar o URL.
 
 Deve ser possível obter o URL do Motor de Reservas para o Tipo de Quarto selecionado e pré-visualizar essa informação. A API deve retornar o URL.
 
@@ -66,7 +66,7 @@ A lista deve incluir paginação (50 itens).
 
 O utilizador seleciona 'Eliminados' para listar todos os Tipos de Quarto Eliminados.
 
-User selects “Removed” to list the all the Deleted Room Types.
+`User selects “Removed” to list the all the Deleted Room Types.`
 
 O utilizador clica no botão 'Atualizar' para preencher a lista com a informação atualizada.
 
@@ -138,7 +138,7 @@ Quando a ocupação do quarto é alterada ('Mín. de Adultos', 'Máx. de Adultos
 
 ![Screenshot 492](</assets/beehive/gestao-de-propriedade/tipos-de-quarto/Screenshot_492.png> "Screenshot 492")
 
-If the number of adults or children is decremented the system should alert the account manager that the prices of the removed occupancy will also be removed. The following warning message should be triggered “Room occupancy changed. Since the occupancy Adult 4 is no longer allowed, prices will be removed. Want to continue? Yes/No”.
+`If the number of adults or children is decremented the system should alert the account manager that the prices of the removed occupancy will also be removed. The following warning message should be triggered “Room occupancy changed. Since the occupancy Adult 4 is no longer allowed, prices will be removed. Want to continue? Yes/No”.`
 
 Apenas utilizadores com a **permissão** '**Utilizador pode editar a ocupação de um tipo de quarto**' (*PermissionCode 5044*) podem alterar a ocupação de adultos ('Mín. de Adultos' e 'Máx. de Adultos') e a ocupação de crianças ('Aceitar Crianças', 'Máx. de Crianças' e 'Máx. de Crianças Grátis').
 
@@ -176,7 +176,7 @@ O ícone de 'estrela' deve incluir uma *tooltip* com a seguinte informação: 'D
 
 A foto marcada como principal fica com uma 'estrela' e será mostrada como foto principal no Motor de Reservas.
 
-Uma vez definida uma foto como principal no quarto, não é possível deixar o quarto sem uma foto marcada como principal; pode-se alterar a foto principal, mas não removê-la.
+Uma vez definida uma foto como principal no quarto, não é possível deixar o quarto sem uma foto principal; pode-se alterar a foto principal, mas não removê-la.
 
 O utilizador pode pré-visualizar todas as fotos do seu quarto numa galeria de fotos.
 
