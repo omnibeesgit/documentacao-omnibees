@@ -190,7 +190,7 @@ As Configurações Adicionais devem ser mostradas de acordo com a informação r
 
 As opções 'Compartilhar', 'URL Motor de Reservas' e 'Histórico de Alterações' apenas são mostradas na edição; na criação do quarto, estas opções não estão disponíveis.
 
-As opções 'Compartilhar' e 'URL Motor de Reservas' apenas são mostradas mediante permissão (ação 'Ligado' na permissão para a ecrã).
+As opções 'Compartilhar' e 'URL Motor de Reservas' apenas são mostradas mediante permissão (ação 'Ligado' na permissão para o ecrã).
 
 *   Compartilhar o Tipo de Quarto nas redes sociais
     *   Facebook
