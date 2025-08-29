@@ -42,6 +42,10 @@ const config: Config = {
     [
       "classic",
       {
+        docs: {
+          sidebarPath: './sidebars.ts',
+          routeBasePath: '/',
+        },
         theme: {
           customCss: "./src/css/custom.css",
         },
@@ -53,15 +57,27 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "Documentação Omnibees",
+      title: "Documentação",
       logo: {
         alt: "Omnibees",
         src: "img/omnibees.svg",
       },
       items: [
-        { to: "/", label: "Documentação", position: "left", type: 'doc', docId: 'intro' },
         {
-          href: "https://github.com/facebook/docusaurus",
+          label: "Produtos",
+          position: "left",
+          type: "dropdown",
+          items: [
+            {
+              type: "docSidebar",
+              sidebarId: "beehiveSidebar",
+              label: "Beehive",
+            },
+          ],
+        },
+
+        {
+          href: "https://github.com/omnibeesgit/documentacao-omnibees",
           label: "GitHub",
           position: "right",
         },
@@ -70,7 +86,7 @@ const config: Config = {
     footer: {
       style: "dark",
       links: [
-        {
+       /*  {
           title: "Docs",
           items: [
             {
@@ -80,25 +96,16 @@ const config: Config = {
           ],
         },
         {
-          title: "Community",
+          title: "More",
           items: [
             {
-              label: "Omnibees",
-              href: "https://omnibees.com",
-            },           
-          ],
-        },
-        {
-          title: "More",
-          items: [           
-            {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/omnibeesgit/documentacao-omnibees",
             },
           ],
-        },
+        }, */
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Omnibees. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
