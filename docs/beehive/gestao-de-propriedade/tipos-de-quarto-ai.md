@@ -1,8 +1,8 @@
 ---
-title: Tipos de Quarto
+title: Tipos de Quarto AI
 description: Gestão e categorização dos tipos de alojamento disponíveis no sistema.
-slug: /beehive/gestao-de-propriedade/tipos-de-quarto
-sidebar_label: Tipos de Quarto
+slug: /beehive/gestao-de-propriedade/tipos-de-quarto-ai
+sidebar_label: Tipos de Quarto AI
 sidebar_position: 1
 ---
 
@@ -11,7 +11,7 @@ sidebar_position: 1
 ## 1. Identificação da Funcionalidade
 
 *   **Título**: Tipos de Quarto
-*   **Página/Localização**: `docs/beehive/gestao-de-propriedade/tipos-de-quarto.md`
+*   **Página/Localização**: `docs/beehive/gestao-de-propriedade/tipos-de-quarto-ai.md`
 *   **Responsável (PO)**: TODO
 *   **Última atualização**: TODO
 
