@@ -1,3 +1,4 @@
+```markdown
 ---
 sidebar_label: Permissões de Gestor de Conta e Hotel
 title: Permissões de Gestor de Conta e Hotel
@@ -178,5 +179,4 @@ De acordo com as permissões de utilizador, algumas ações devem estar habilita
 |-------------------|-------|-------------------------|-------------|
 | 03-09-2025        | N8N   | -                       | Conversão da documentação para Docusaurus |
 | 06-09-2022        | Ana Antunes | [O-743](https://omnibees.aha.io/features/O-743) | disponibilizar o acesso ao menu de permissões de gestor de conta tanto para extranet como para Omnibees |
-
-### UI/UX
+```
