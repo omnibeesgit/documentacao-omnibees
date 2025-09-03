@@ -127,6 +127,5 @@ O ecrã deve validar as permissões do utilizador e mostrar as informações de 
 | Data da alteração | Owner | Referência de alteração | Observações |
 |---|---|---|---|
 | 03-09-2025 | N8N | - | Conversão da documentação para Docusaurus |
-| 31-08-2022 | Ana Antunes | - | Regra para cálculo de custo de cancelamento por número de noites |
-| 28-02-2022 | Flávia Guerreiro | [Feature O-541](https://omnibees.aha.io/features/O-541) | Inclusão de Políticas de Cancelamento Multi-Property<br/>Tradução da documentação para PT |
-| ND | Fabiana Sobreiro | [Documentação Base](https://omnibeesportugal.sharepoint.com/:w:/r/sites/Produtos/_layouts/15/Doc.aspx?sourcedoc=%7bA57C4C9D-1971-4CD3-BF00-D450975769EE%7d&file=Offers.docx&action=default&mobileredirect=true&cid=78619946-0877-49f6-8bf5-12097adc8725) | Primeira documentação criada para Políticas de Cancelamento |
+| 28-02-2022 | Flávia Guerreiro | [Feature O-530](https://omnibees.aha.io/features/O-530) | Inclusão de Políticas de Depósito/Garantia de Multi-Property<br/>Tradução da documentação para PT |
+| ND | Fabiana Sobreiro | [Documentação Base](https://omnibeesportugal.sharepoint.com/:w:/r/sites/Produtos/_layouts/15/Doc.aspx?sourcedoc=%7bA57C4C9D-1971-4CD3-BF00-D450975769EE%7d&file=Offers.docx&action=default&mobileredirect=true&cid=78619946-0877-49f6-8bf5-12097adc8725) | Primeira documentação criada para Políticas de Depósito/Garantia |
