@@ -207,5 +207,10 @@ O campo "Cliente Whitelabel" é automaticamente preenchido com o whitelabel em c
 
 ### Histórico de alterações e referências
 
+| Data da alteração | Owner | Referência de alteração | Observações |
+|-------------------|-------|-------------------------|-------------|
+| 03-09-2025        | N8N   | -                       | Conversão da documentação para Docusaurus |
+| 14-12-2022        | Ana Antunes | O-940                   | Novo Form de Clientes |
+
 ### UI/UX
 ```
