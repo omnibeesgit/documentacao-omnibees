@@ -40,86 +40,86 @@ O Wizard de Novo Cliente possui um fluxo onde o Gestor de Conta pode configurar:
 *   Atribuir uma ou mais permissões ao utilizador
 *   Associar a nova propriedade a um ou mais gestores de conta
 
-| Campo | Obrigatório? | |
-|:---|:---|:---|
-| **Cliente** | N/A | |
-| | **Nome Comercial** | S |
-| | **Nome Fiscal** | S |
-| | **ID Salesforce** | N |
-| | **Nº Hotéis** | S |
-| | **Número Fiscal** | S |
-| | **País** | S |
-| | **CEP / Código Postal** | S |
-| | **Tipo** | S (apenas visível quando o país do cliente for Brasil) |
-| | **Endereço / Morada** | S |
-| | **Número** | S (apenas visível quando o país do cliente for Brasil) |
-| | **Complemento** | N (apenas visível quando o país do cliente for Brasil) |
-| | **Bairro** | S (apenas visível quando o país do cliente for Brasil) |
-| | **Estado** | S |
-| | **Cidade** | S |
-| | **Email** | S |
-| | **Telefone** | N |
-| | **Celular / Telemóvel** | N |
-| | **Website** | N |
-| | **Pessoa de Contacto** | S |
-| | **Email da Pessoa de Contacto** | S |
-| | **Telefone da Pessoa de Contacto** | S |
-| **Propriedade** | N/A | |
-| | **Nome** | S |
-| | **ID Salesforce** | N |
-| | **Idioma Base** | S |
-| | **Moeda Base** | S |
-| | **Fuso Horário** | S |
-| | **Categoria da Propriedade** | S |
-| | **Total de Apartamentos** | S |
-| | **Permite Crianças** | N |
-| | **Classificação** | N |
-| | **País** | S |
-| | **CEP / Código Postal** | N |
-| | **Endereço / Morada** | N |
-| | **Estado** | S |
-| | **Cidade** | S |
-| | **Latitude** | S |
-| | **Longitude** | S |
-| | **Pessoa de Contato** | S |
-| | **Email** | S |
-| | **Telefone da Pessoa de Contato** | S |
-| **Faturamento / Faturação** | N/A | |
-| | **O mesmo que a empresa** | N |
-| | **Nome da Propriedade** | S |
-| | **Nome Fiscal** | S |
-| | **Número Contribuinte** | S |
-| | **Email** | N |
-| | **Telefone** | N |
-| | **País** | S |
-| | **CEP / Código Postal** | S |
-| | **Tipo** | S (apenas visível quando o país do cliente for Brasil) |
-| | **Endereço / Morada** | S |
-| | **Número** | S (apenas visível quando o país do cliente for Brasil) |
-| | **Complemento** | N (apenas visível quando o país do cliente for Brasil) |
-| | **Bairro** | S (apenas visível quando o país do cliente for Brasil) |
-| | **Estado** | S |
-| | **Cidade** | S |
-| **Usuário / Utilizador** | N/A | |
-| | **Prefixo** | S |
-| | **Nome Próprio** | S |
-| | **Sobrenome** | N |
-| | **Data de Nascimento** | N |
-| | **Email** | S |
-| | **Telefone** | N |
-| | **Categoria** | N |
-| | **Número de Visualizações do CC** | S (10 por padrão) |
-| | **Usuário / Utilizador** | S |
-| | **Senha / Palavra-Passe** | N |
-| | **Data de Expiração da Senha / Palavra-Passe** | S (a data por padrão é o dia atual + 60 dias) |
-| | **Autenticação de dois fatores** | N (inativo por padrão) |
-| | **Usuário / Utilizador bloqueado** | N (inativo por padrão) |
-| **Permissões** | N/A | |
-| | **Lista de Permissões** | N |
-| | **Nome da Permissão** | N |
-| **Gestores de Conta** | N/A | |
-| | **Lista de Gestores de Conta** | N |
-| | **Nome de Gestor de Conta** | N |
+| Campo                                     | Obrigatório?                                     |
+|:------------------------------------------|:-------------------------------------------------|
+| **Cliente**                               | N/A                                              |
+| Nome Comercial                            | S                                                |
+| Nome Fiscal                               | S                                                |
+| ID Salesforce                             | N                                                |
+| Nº Hotéis                                 | S                                                |
+| Número Fiscal                             | S                                                |
+| País                                      | S                                                |
+| CEP / Código Postal                       | S                                                |
+| Tipo                                      | S (apenas visível quando o país do cliente for Brasil) |
+| Endereço / Morada                         | S                                                |
+| Número                                    | S (apenas visível quando o país do cliente for Brasil) |
+| Complemento                               | N (apenas visível quando o país do cliente for Brasil) |
+| Bairro                                    | S (apenas visível quando o país do cliente for Brasil) |
+| Estado                                    | S                                                |
+| Cidade                                    | S                                                |
+| Email                                     | S                                                |
+| Telefone                                  | N                                                |
+| Celular / Telemóvel                       | N                                                |
+| Website                                   | N                                                |
+| Pessoa de Contacto                        | S                                                |
+| Email da Pessoa de Contacto               | S                                                |
+| Telefone da Pessoa de Contacto            | S                                                |
+| **Propriedade**                           | N/A                                              |
+| Nome                                      | S                                                |
+| ID Salesforce                             | N                                                |
+| Idioma Base                               | S                                                |
+| Moeda Base                                | S                                                |
+| Fuso Horário                              | S                                                |
+| Categoria da Propriedade                  | S                                                |
+| Total de Apartamentos                     | S                                                |
+| Permite Crianças                          | N                                                |
+| Classificação                             | N                                                |
+| País                                      | S                                                |
+| CEP / Código Postal                       | N                                                |
+| Endereço / Morada                         | N                                                |
+| Estado                                    | S                                                |
+| Cidade                                    | S                                                |
+| Latitude                                  | S                                                |
+| Longitude                                 | S                                                |
+| Pessoa de Contato                         | S                                                |
+| Email                                     | S                                                |
+| Telefone da Pessoa de Contato             | S                                                |
+| **Faturamento / Faturação**               | N/A                                              |
+| O mesmo que a empresa                     | N                                                |
+| Nome da Propriedade                       | S                                                |
+| Nome Fiscal                               | S                                                |
+| Número Contribuinte                       | S                                                |
+| Email                                     | N                                                |
+| Telefone                                  | N                                                |
+| País                                      | S                                                |
+| CEP / Código Postal                       | S                                                |
+| Tipo                                      | S (apenas visível quando o país do cliente for Brasil) |
+| Endereço / Morada                         | S                                                |
+| Número                                    | S (apenas visível quando o país do cliente for Brasil) |
+| Complemento                               | N (apenas visível quando o país do cliente for Brasil) |
+| Bairro                                    | S (apenas visível quando o país do cliente for Brasil) |
+| Estado                                    | S                                                |
+| Cidade                                    | S                                                |
+| **Usuário / Utilizador**                  | N/A                                              |
+| Prefixo                                   | S                                                |
+| Nome Próprio                              | S                                                |
+| Sobrenome                                 | N                                                |
+| Data de Nascimento                        | N                                                |
+| Email                                     | S                                                |
+| Telefone                                  | N                                                |
+| Categoria                                 | N                                                |
+| Número de Visualizações do CC             | S (10 por padrão)                                |
+| Usuário / Utilizador                      | S                                                |
+| Senha / Palavra-Passe                     | N                                                |
+| Data de Expiração da Senha / Palavra-Passe | S (a data por padrão é o dia atual + 60 dias)    |
+| Autenticação de dois fatores              | N (inativo por padrão)                           |
+| Usuário / Utilizador bloqueado            | N (inativo por padrão)                           |
+| **Permissões**                            | N/A                                              |
+| Lista de Permissões                       | N                                                |
+| Nome da Permissão                         | N                                                |
+| **Gestores de Conta**                     | N/A                                              |
+| Lista de Gestores de Conta                | N                                                |
+| Nome de Gestor de Conta                   | N                                                |
 
 O painel deve validar as permissões do utilizador e exibir a informação de acordo. Enquanto navega no Wizard, o utilizador tem sempre a possibilidade de voltar atrás para rever ou alterar a informação previamente preenchida. O utilizador, para avançar para o passo seguinte, deve preencher todos os campos obrigatórios no formato correto.
 
@@ -177,7 +177,7 @@ O nome da empresa é um campo obrigatório, pois é utilizado para questões de 
 
 **Aba Usuário/Utilizador**
 
-É obrigatório criar um novo utilizador ao configurar um novo cliente. Todas as restrições de formato definidas no capítulo Utilizadores – Criação de Utilizador devem ser consideradas no painel das principais informações do utilizador.
+É obrigatório criar um novo utilizador ao configurar um novo cliente. Todas as restrições de formato definidas no capítulo "Utilizadores – Criação de Utilizador" devem ser consideradas no painel das principais informações do utilizador.
 
 A propriedade que está a ser criada deve ser automaticamente associada ao novo utilizador.
 
