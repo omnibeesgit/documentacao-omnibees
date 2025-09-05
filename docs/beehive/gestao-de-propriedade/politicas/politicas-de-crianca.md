@@ -1,7 +1,7 @@
 ---
 sidebar_label: Políticas para Crianças
 title: Políticas para Crianças
-description: Este documento detalha as políticas para crianças, suas configurações, filtros e ações como criação, edição e exclusão dentro do sistema, incluindo aspectos de multi-propriedade.
+description: Este documento detalha as políticas para crianças, suas configurações, filtros e ações como criação, edição e exclusão dentro do sistema, incluindo aspectos de multi-propriedade e histórico de alterações.
 slug: /beehive/gestao-de-propriedade/politicas/politicas-de-crianca
 ---
 # Políticas para Crianças
@@ -97,7 +97,7 @@ Neste ecrã é possível criar ou editar uma política para crianças. Todos os 
 O Nome e Descrição da Política para Crianças podem ser definidos em vários idiomas.
 O idioma padrão deve ser o idioma base da propriedade e os idiomas restantes devem ser os suportados pelo sistema.
 
-A opção *Ativar Variação de Preço* inclui uma informação (`info`) com a seguinte descrição: "Ao ativar a variação de preço para crianças, um valor ou percentagem será aplicado sobre o preço definido para crianças na atualização de tarifas."
+A opção *Ativar Variação de Preço* inclui uma informação (`info`) com a seguinte descrição: "Ao ativar a variação de preço para crianças, será aplicado um valor ou percentagem sobre o preço definido para crianças na atualização de tarifas."
 
 O utilizador deve definir se a Variação de Preço (valor ou percentagem) aumenta ou diminui o preço definido para crianças na atualização de tarifas.
 A Variação de Preço é, por padrão, em percentagem, e o valor deve ser maior que zero e menor ou igual a 100%.
@@ -106,7 +106,7 @@ A opção "Outras Moedas" só fica visível se o utilizador definir o valor em M
 
 A opção Contar por ocupação faz com que a criança dentro das idades definidas na política conte para a ocupação máxima do quarto.
 
-Não há um limite máximo para políticas para crianças. As idades definidas nas políticas para crianças têm de ser mutuamente exclusivas em qualquer um dos três tipos de políticas (as idades não podem se duplicar entre políticas para crianças do mesmo hotel).
+Não há um limite máximo para políticas para crianças. As idades definidas nas políticas para crianças devem ser mutuamente exclusivas em qualquer um dos três tipos de políticas (as idades não podem se duplicar entre políticas para crianças do mesmo hotel).
 
 **Políticas para Crianças Multi-Property** (*Editável por* = Multi-Property) podem ser consultadas pelo utilizador sem a necessidade de nenhuma permissão especial para tal.
 Ao aceder aos detalhes de uma política para crianças multi-property, todos os dados estarão bloqueados, não sendo possível editá-los.
